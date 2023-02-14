@@ -1,0 +1,291 @@
+@media screen and (max-width:1000px) {
+   .nav{
+      width: 98%;
+  }
+    body{
+        overflow-x: hidden;
+    }
+    .hero .h-contnt{
+        text-align: center;
+     }
+     .hero .h-contnt .arrow{
+        display: none;
+     }
+     .hero .h-contnt h2{
+        font-size: 20px;
+     }
+     .hero .h-contnt h4{
+        font-size: 20px;
+     }
+     .hero .h-contnt button{
+        padding: 0 1rem;
+         height: 40px;
+         font-size: 16px;
+      }
+     /* serv */
+     .serv .s-cards{
+        grid-template-columns: 1fr;
+     }
+     .partner .customer .c-cards .cardx{
+        width: 92%;
+       
+    }
+     .serv h1{
+        font-size: 20px;
+     }
+
+     .serv .s-cards h2{
+    font-size: 17px;
+   }
+   .serv .s-cards p{
+    font-size: 16px;
+}
+.serv button{
+    height: 48px;
+    background: #017187;
+    border: 1px solid #194565;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding: 0 4rem;font-size: 16px;
+}
+
+     /* newsletter */
+     .newsletter{
+       height: auto;
+       padding: 1rem 0;
+    }
+    .newsletter form .input input{
+        width: 100%;
+
+       
+    }
+    
+    
+     .newsletter .n-contnt{
+       flex-direction: column;
+       height: auto;
+       padding: 1rem 0;
+    }
+    .newsletter form .input{
+        width: 100%;
+    }
+    .newsletter .img{
+        width: 100%;
+        text-align: center;
+    }
+    .newsletter .txt{
+        width: 90%;
+        margin: auto;
+    }
+    .newsletter .txt h2{
+    font-size: 18px;
+}
+.newsletter .txt p{
+    font-size: 16px;
+}
+
+    /* partner */
+
+    .partner .customer .c-cards{
+        grid-template-columns: 1fr;
+    }
+    .partner .p-contnt h2{
+        font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 1rem;
+    }
+    .partner .customer .c-cards .cardx{
+    margin-top: 1rem;
+    }
+    .partner .customer h2{
+        font-size: 20px;
+    }
+    .partner .p-contnt p{
+    font-size: 16px;
+}
+.partner .customer h2{
+    font-size: 19px;
+}
+.partner .customer .c-cards .cardx h4{
+    font-size: 16px;
+}
+.partner .customer .c-cards .cardx p{
+    font-size: 16px;
+}
+.partner .p-contnt button{
+    font-size: 16px;
+}
+
+
+    /* footer */
+    footer .f-cntnt{
+      width: 100%;
+       grid-template-columns:1fr 1fr;
+    }
+    
+    footer .f-cntnt .first{
+        width: 79%;
+        margin: auto;
+    }
+    footer .iconn img{
+      width: 1rem;
+  }
+    
+    footer .f-cntnt .second a{
+        font-weight: 500;
+        font-size: 13px;
+     }
+    footer .f-cntnt .second{
+        width: 70%;
+        margin: auto;
+     }
+     footer .f-cntnt .second h5{
+        font-size: 14px;
+     }
+     footer .f-cntnt .second h6{
+     margin-bottom: 1rem;
+     font-size: 15px;
+   }
+  
+     footer .f-cntnt .third h5{
+        font-size: 16px;
+     }
+     footer .f-cntnt .third a{
+        font-weight: 500;
+        font-size: 13px;
+     }
+     footer .f-cntnt .third{
+        width: 70%;
+       margin: auto;
+     }
+
+
+     /* about html */
+     .hero-a{
+      height: 60vh;
+   }
+     .hero-a .hero-footer{
+      display: none;
+   }
+   .about-a{
+      flex-direction: column-reverse;
+      height: auto;
+   }
+   .about-a .about-l{
+      width: 100%;
+   }
+   .about-a .about-l h3{
+      font-size: 22px;
+   }
+   .about-a .about-l p{
+      font-size: 16px;
+   }
+   .about-a .about-r{
+      width: 100%;
+      margin-bottom: 1.5rem;
+   }
+   .about-a .about-r .r1{
+      height: 55vh;
+   }
+   .about-a .about-r .r2 img{
+      height: 50vh;      
+   }
+   .about-a .about-r .r1{
+      width: 100%;
+   }
+   .about-a2{
+      flex-direction: column;
+   }
+   .about .about-c{
+      width: 100%;
+   }
+   .about .about-c h2{
+      font-size: 30px;
+   }
+   .about .about-c .box-c{
+      width: 30%;
+   }
+   .about .about-c .c-flex .c-box h4{
+      font-size: 25px;
+   }
+   .about .about-c p{
+      width: 65%;
+      font-size: 22px;
+   }
+   .about .why h2{
+      font-size: 22px;
+   }
+   .about .why h3{
+      font-size: 18px;
+   }
+   .about .why p{
+      font-size: 16px;
+   }
+   
+    
+     /* form */
+     .sign form{
+      width: 95%;
+  }
+
+  .sign form .form-cnt .form-flex{
+   grid-template-columns:  1fr;
+}
+.sign form .form-cnt h2{
+   font-size: 20px;
+}
+.sign form .form-cnt p{
+   width: 90%;
+}
+  .sign form .form-cnt button{ 
+   width: 50%;
+   font-size: 16px;
+   height: 2.5rem;
+}
+
+#form1{
+   grid-template-columns: 1fr;  
+ }
+ .sign form .form-cnt .butn button{
+    width: 50%;
+  }
+  .sign form .forms  p{
+    width: 90%;
+}
+  .sign form .form-cnt .f-1 input{
+    width: 90%;
+}
+.sign form .form-cnt select{
+   width: 90%;
+}
+.sign form .form-cnt #form2{
+   width: fit-content;
+ 
+}
+.f-3 label{
+   font-size: 16px;
+}
+
+
+/* confirmation */
+.conf h3{
+    font-size :22px;
+}
+.conf p{
+   font-size: 18px;
+}
+
+/* code verification */
+
+.formv .boxx {
+   width: 95%;
+}
+.formv .boxx input{
+   width: 19%;
+}
+
+}
